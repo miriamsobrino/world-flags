@@ -144,7 +144,9 @@ import CloseIcon from "../icons/closeIcon.astro";
   }
 </style>
 <script>
+    
   import { flags } from "../constants/flags.js";
+  document.addEventListener("DOMContentLoaded", function () {
   let remainingFlags = [...flags];
   let score = 0;
   let scoreElement = document.getElementById("score");
@@ -250,8 +252,8 @@ import CloseIcon from "../icons/closeIcon.astro";
     });
   }
   function retryQuiz() {
-    score = 0; // Reset the score
-    remainingFlags = [...flags]; // Reset the remaining flags
+    score = 0;
+    remainingFlags = [...flags]; 
     flagImage.style.display = "flex";
     optionsContainer.style.display="flex";
     scoreElement.innerText = `Score: ${score}/${flags.length}`;
@@ -264,5 +266,6 @@ import CloseIcon from "../icons/closeIcon.astro";
     document.getElementById("modalContainer").style.display = "none";
     score = 0;
     remainingFlags = [...flags];
+  });
   });
 </script>
