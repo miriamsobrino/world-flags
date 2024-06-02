@@ -1,92 +1,92 @@
 export const flags = [
     {
       "name": "Afghanistan",
-      "image": "/flags/af.svg"
+      "image": "./flags/af.svg"
     },
     {
       "name": "Albania",
-      "image": "/flags/al.svg"
+      "image": "./flags/al.svg"
     },
     {
       "name": "Algeria",
-      "image": "/flags/dz.svg"
+      "image": "./flags/dz.svg"
     },
     {
       "name": "Andorra",
-      "image": "/flags/ad.svg"
+      "image": "./flags/ad.svg"
     },
     {
       "name": "Angola",
-      "image": "/flags/ao.svg"
+      "image": "./flags/ao.svg"
     },
     {
       "name": "Antigua & Barbuda",
-      "image": "/flags/ag.svg"
+      "image": "./flags/ag.svg"
     },
     {
       "name": "Argentina",
-      "image": "/flags/ar.svg"
+      "image": "./flags/ar.svg"
     },
     {
       "name": "Armenia",
-      "image": "/flags/am.svg"
+      "image": "./flags/am.svg"
     },
     {
       "name": "Aruba",
-      "image": "/flags/aw.svg"
+      "image": "./flags/aw.svg"
     },
     {
       "name": "Australia",
-      "image": "/flags/au.svg"
+      "image": "./flags/au.svg"
     },
   
     {
       "name": "Austria",
-      "image": "/flags/at.svg"
+      "image": "./flags/at.svg"
     },
     {
       "name": "Azerbaijan",
-      "image": "/flags/az.svg"
+      "image": "./flags/az.svg"
     },
     {
       "name": "Bahamas",
-      "image": "/flags/bs.svg"
+      "image": "./flags/bs.svg"
     },
     {
       "name": "Bahrain",
-      "image": "/flags/bh.svg"
+      "image": "./flags/bh.svg"
     },
     {
       "name": "Bangladesh",
-      "image": "/flags/bd.svg"
+      "image": "./flags/bd.svg"
     },
     {
       "name": "Barbados",
-      "image": "/flags/bb.svg"
+      "image": "./flags/bb.svg"
     },
     {
       "name": "Belarus",
-      "image": "/flags/by.svg"
+      "image": "./flags/by.svg"
     },
     {
       "name": "Belgium",
-      "image": "/flags/be.svg"
+      "image": "./flags/be.svg"
     },
     {
       "name": "Belize",
-      "image": "/flags/bz.svg"
+      "image": "./flags/bz.svg"
     },
     {
       "name": "Benin",
-      "image": "/flags/bj.svg"
+      "image": "./flags/bj.svg"
     },
     {
       "name": "Bermuda",
-      "image": "/flags/bm.svg"
+      "image": "./flags/bm.svg"
     },
     {
       "name": "Bhutan",
-      "image": "/flags/bt.svg"
+      "image": "./flags/bt.svg"
     },
     {
       "name": "Bolivia",
@@ -94,210 +94,210 @@ export const flags = [
     },
     {
       "name": "Bosnia and Herzegovina",
-      "image": "/flags/ba.svg"
+      "image": "./flags/ba.svg"
     },
     {
       "name": "Botswana",
-      "image": "/flags/bw.svg"
+      "image": "./flags/bw.svg"
     },
 
     {
       "name": "Brazil",
-      "image": "/flags/br.svg"
+      "image": "./flags/br.svg"
     },
  
     {
       "name": "Brunei Darussalam",
-      "image": "/flags/bn.svg"
+      "image": "./flags/bn.svg"
     },
     {
       "name": "Bulgaria",
-      "image": "/flags/bg.svg"
+      "image": "./flags/bg.svg"
     },
     {
       "name": "Burkina Faso",
-      "image": "/flags/bf.svg"
+      "image": "./flags/bf.svg"
     },
     {
       "name": "Burundi",
-      "image": "/flags/bi.svg"
+      "image": "./flags/bi.svg"
     },
     {
       "name": "Cabo Verde",
-      "image": "/flags/cv.svg"
+      "image": "./flags/cv.svg"
     },
     {
       "name": "Cambodia",
-      "image": "/flags/kh.svg"
+      "image": "./flags/kh.svg"
     },
     {
       "name": "Cameroon",
-      "image": "/flags/cm.svg"
+      "image": "./flags/cm.svg"
     },
     {
       "name": "Canada",
-      "image": "/flags/ca.svg"
+      "image": "./flags/ca.svg"
     },
     {
       "name": "Central African Republic",
-      "image": "/flags/cf.svg"
+      "image": "./flags/cf.svg"
     },
     {
       "name": "Chad",
-      "image": "/flags/td.svg"
+      "image": "./flags/td.svg"
     },
     {
       "name": "Chile",
-      "image": "/flags/cl.svg"
+      "image": "./flags/cl.svg"
     },
     {
       "name": "China",
-      "image": "/flags/cn.svg"
+      "image": "./flags/cn.svg"
     },
     {
       "name": "Colombia",
-      "image": "/flags/co.svg"
+      "image": "./flags/co.svg"
     },
     {
       "name": "Comoros",
-      "image": "/flags/km.svg"
+      "image": "./flags/km.svg"
     },
     {
       "name": "Costa Rica",
-      "image": "/flags/cr.svg"
+      "image": "./flags/cr.svg"
     },
     {
       "name": "Croatia",
-      "image": "/flags/hr.svg"
+      "image": "./flags/hr.svg"
     },
     {
       "name": "Cuba",
-      "image": "/flags/cu.svg"
+      "image": "./flags/cu.svg"
     },
     {
       "name": "Cyprus",
-      "image": "/flags/cy.svg"
+      "image": "./flags/cy.svg"
     },
     {
       "name": "Czech Republic",
-      "image": "/flags/cz.svg"
+      "image": "./flags/cz.svg"
     },
     {
       "name": "Côte d'Ivoire",
-      "image": "/flags/ci.svg"
+      "image": "./flags/ci.svg"
     },
     {
       "name": "Dem. Republic of Congo",
-      "image": "/flags/cd.svg"
+      "image": "./flags/cd.svg"
     },
     {
       "name": "Denmark",
-      "image": "/flags/dk.svg"
+      "image": "./flags/dk.svg"
     },
     {
       "name": "Djibouti",
-      "image": "/flags/dj.svg"
+      "image": "./flags/dj.svg"
     },
     {
       "name": "Dominica",
-      "image": "/flags/dm.svg"
+      "image": "./flags/dm.svg"
     },
     {
       "name": "Dominican Republic",
-      "image": "/flags/do.svg"
+      "image": "./flags/do.svg"
     },
     {
       "name": "Ecuador",
-      "image": "/flags/ec.svg"
+      "image": "./flags/ec.svg"
     },
     {
       "name": "Egypt",
-      "image": "/flags/eg.svg"
+      "image": "./flags/eg.svg"
     },
     {
       "name": "El Salvador",
-      "image": "/flags/sv.svg"
+      "image": "./flags/sv.svg"
     },
     {
       "name": "Equatorial Guinea",
-      "image": "/flags/gq.svg"
+      "image": "./flags/gq.svg"
     },
     {
       "name": "Eritrea",
-      "image": "/flags/er.svg"
+      "image": "./flags/er.svg"
     },
     {
       "name": "Estonia",
-      "image": "/flags/ee.svg"
+      "image": "./flags/ee.svg"
     },
     {
       "name": "Eswatini",
-      "image": "/flags/sz.svg"
+      "image": "./flags/sz.svg"
     },
     {
       "name": "Ethiopia",
-      "image": "/flags/et.svg"
+      "image": "./flags/et.svg"
     },
  
     {
       "name": "Fiji",
-      "image": "/flags/fj.svg"
+      "image": "./flags/fj.svg"
     },
     {
       "name": "Finland",
-      "image": "/flags/fi.svg"
+      "image": "./flags/fi.svg"
     },
     {
       "name": "France",
-      "image": "/flags/fr.svg"
+      "image": "./flags/fr.svg"
     },
     {
       "name": "Gabon",
-      "image": "/flags/ga.svg"
+      "image": "./flags/ga.svg"
     },
     {
       "name": "Gambia",
-      "image": "/flags/gm.svg"
+      "image": "./flags/gm.svg"
     },
     {
       "name": "Georgia",
-      "image": "/flags/ge.svg"
+      "image": "./flags/ge.svg"
     },
     {
       "name": "Germany",
-      "image": "/flags/de.svg"
+      "image": "./flags/de.svg"
     },
     {
       "name": "Ghana",
-      "image": "/flags/gh.svg"
+      "image": "./flags/gh.svg"
     },
    
     {
       "name": "Greece",
-      "image": "/flags/gr.svg"
+      "image": "./flags/gr.svg"
     },
     {
       "name": "Greenland",
-      "image": "/flags/gl.svg"
+      "image": "./flags/gl.svg"
     },
     {
       "name": "Grenada",
-      "image": "/flags/gd.svg"
+      "image": "./flags/gd.svg"
     },
 
  
     {
       "name": "Guatemala",
-      "image": "/flags/gt.svg"
+      "image": "./flags/gt.svg"
     },
  
     {
         "name": "Guinea",
-        "image": "/flags/gn.svg"
+        "image": "./flags/gn.svg"
       },
       {
         "name": "Guinea-Bissau",
-        "image": "/flags/gw.svg"
+        "image": "./flags/gw.svg"
       },
       {
         "name": "Guyana",
@@ -305,23 +305,23 @@ export const flags = [
       },
       {
         "name": "Haiti",
-        "image": "/flags/ht.svg"
+        "image": "./flags/ht.svg"
       },
       {
         "name": "Honduras",
-        "image": "/flags/hn.svg"
+        "image": "./flags/hn.svg"
       },
       {
         "name": "Hungary",
-        "image": "/flags/hu.svg"
+        "image": "./flags/hu.svg"
       },
       {
         "name": "Iceland",
-        "image": "/flags/is.svg"
+        "image": "./flags/is.svg"
       },
       {
         "name": "India",
-        "image": "/flags/in.svg"
+        "image": "./flags/in.svg"
       },
       {
         "name": "Indonesia",
@@ -329,56 +329,56 @@ export const flags = [
       },
       {
         "name": "Iran",
-        "image": "/flags/ir.svg"
+        "image": "./flags/ir.svg"
       },
       {
         "name": "Iraq",
-        "image": "/flags/iq.svg"
+        "image": "./flags/iq.svg"
       },
       {
         "name": "Ireland",
-        "image": "/flags/ie.svg"
+        "image": "./flags/ie.svg"
       },
       {
         "name": "Israel",
-        "image": "/flags/il.svg"
+        "image": "./flags/il.svg"
       },
       {
         "name": "Italy",
-        "image": "/flags/it.svg"
+        "image": "./flags/it.svg"
       },
       {
         "name": "Jamaica",
-        "image": "/flags/jm.svg"
+        "image": "./flags/jm.svg"
       },
       {
         "name": "Japan",
-        "image": "/flags/jp.svg"
+        "image": "./flags/jp.svg"
       },
   
       {
         "name": "Jordan",
-        "image": "/flags/jo.svg"
+        "image": "./flags/jo.svg"
       },
       {
         "name": "Kazakhstan",
-        "image": "/flags/kz.svg"
+        "image": "./flags/kz.svg"
       },
       {
         "name": "Kenya",
-        "image": "/flags/ke.svg"
+        "image": "./flags/ke.svg"
       },
       {
         "name": "Kiribati",
-        "image": "/flags/ki.svg"
+        "image": "./flags/ki.svg"
       },
       {
         "name": "Kuwait",
-        "image": "/flags/kw.svg"
+        "image": "./flags/kw.svg"
       },
       {
         "name": "Kyrgyzstan",
-        "image": "/flags/kg.svg"
+        "image": "./flags/kg.svg"
       },
       {
         "name": "Laos",
