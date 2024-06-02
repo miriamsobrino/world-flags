@@ -53,7 +53,6 @@ import CloseIcon from "../icons/closeIcon.astro";
     background-color: #f6f6f6;
     padding: 20px 0 40px 0;
     max-height:500px;
-    min-height:500px;
     border-radius: 10px;
     width: 400px;
     display: flex;
@@ -187,10 +186,10 @@ import CloseIcon from "../icons/closeIcon.astro";
       btnRetry.style.display = "flex";
       optionsContainer.style.display = "none";
       if (score < 50) {
-        adviceText.innerText = "You should study harder";
+        adviceText.innerText = "You should study harder...";
       } else if (score > 50 || score == 100) {
-        adviceText.innerText = "Not bad...but you can do better!";
-      } else if (score > 100 && score < 180) {
+        adviceText.innerText = "Not bad...but you can do better";
+      } else if (score > 100 && score < 190) {
         adviceText.innerText =
           "You're very good at this, you're not far from excellence!";
       } else {

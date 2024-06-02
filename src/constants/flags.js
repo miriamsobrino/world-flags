@@ -20,7 +20,7 @@ export const flags = [
       "image": "./flags/ao.svg"
     },
     {
-      "name": "Antigua & Barbuda",
+      "name": "Antigua and Barbuda",
       "image": "./flags/ag.svg"
     },
     {
@@ -90,7 +90,7 @@ export const flags = [
     },
     {
       "name": "Bolivia",
-      "image": "/flags/bo.svg"
+      "image": "./flags/bo.svg"
     },
     {
       "name": "Bosnia and Herzegovina",
@@ -382,435 +382,435 @@ export const flags = [
       },
       {
         "name": "Laos",
-        "image": "/flags/la.svg"
+        "image": "./flags/la.svg"
       },
       {
         "name": "Latvia",
-        "image": "/flags/lv.svg"
+        "image": "./flags/lv.svg"
       },
       {
         "name": "Lebanon",
-        "image": "/flags/lb.svg"
+        "image": "./flags/lb.svg"
       },
       {
         "name": "Lesotho",
-        "image": "/flags/ls.svg"
+        "image": "./flags/ls.svg"
       },
       {
         "name": "Liberia",
-        "image": "/flags/lr.svg"
+        "image": "./flags/lr.svg"
       },
       {
         "name": "Libya",
-        "image": "/flags/ly.svg"
+        "image": "./flags/ly.svg"
       },
       {
         "name": "Liechtenstein",
-        "image": "/flags/li.svg"
+        "image": "./flags/li.svg"
       },
       {
         "name": "Lithuania",
-        "image": "/flags/lt.svg"
+        "image": "./flags/lt.svg"
       },
       {
         "name": "Luxembourg",
-        "image": "/flags/lu.svg"
+        "image": "./flags/lu.svg"
       },
       {
         "name": "Madagascar",
-        "image": "/flags/mg.svg"
+        "image": "./flags/mg.svg"
       },
       {
         "name": "Malawi",
-        "image": "/flags/mw.svg"
+        "image": "./flags/mw.svg"
       },
       {
         "name": "Malaysia",
-        "image": "/flags/my.svg"
+        "image": "./flags/my.svg"
       },
       {
         "name": "Maldives",
-        "image": "/flags/mv.svg"
+        "image": "./flags/mv.svg"
       },
       {
         "name": "Mali",
-        "image": "/flags/ml.svg"
+        "image": "./flags/ml.svg"
       },
       {
         "name": "Malta",
-        "image": "/flags/mt.svg"
+        "image": "./flags/mt.svg"
       },
       {
         "name": "Marshall Islands",
-        "image": "/flags/mh.svg"
+        "image": "./flags/mh.svg"
       },
       {
         "name": "Mauritania",
-        "image": "/flags/mr.svg"
+        "image": "./flags/mr.svg"
       },
       {
         "name": "Mauritius",
-        "image": "/flags/mu.svg"
+        "image": "./flags/mu.svg"
       },
       {
         "name": "Mexico",
-        "image": "/flags/mx.svg"
+        "image": "./flags/mx.svg"
       },
       {
         "name": "Moldova",
-        "image": "/flags/md.svg"
+        "image": "./flags/md.svg"
       },
       {
         "name": "Micronesia",
-        "image": "/flags/fm.svg"
+        "image": "./flags/fm.svg"
       },
       {
         "name": "Monaco",
-        "image": "/flags/mc.svg"
+        "image": "./flags/mc.svg"
       },
       {
         "name": "Mongolia",
-        "image": "/flags/mn.svg"
+        "image": "./flags/mn.svg"
       },
       {
         "name": "Montenegro",
-        "image": "/flags/me.svg"
+        "image": "./flags/me.svg"
       },
       {
         "name": "Morocco",
-        "image": "/flags/ma.svg"
+        "image": "./flags/ma.svg"
       },
       {
         "name": "Mozambique",
-        "image": "/flags/mz.svg"
+        "image": "./flags/mz.svg"
       },
       {
         "name": "Myanmar",
-        "image": "/flags/mm.svg"
+        "image": "./flags/mm.svg"
       },
       {
         "name": "Namibia",
-        "image": "/flags/na.svg"
+        "image": "./flags/na.svg"
       },
       {
         "name": "Nauru",
-        "image": "/flags/nr.svg"
+        "image": "./flags/nr.svg"
       },
       {
         "name": "Nepal",
-        "image": "/flags/np.svg"
+        "image": "./flags/np.svg"
       },
       {
         "name": "Netherlands",
-        "image": "/flags/nl.svg"
+        "image": "./flags/nl.svg"
       },
       {
         "name": "New Zealand",
-        "image": "/flags/nz.svg"
+        "image": "./flags/nz.svg"
       },
       {
         "name": "Nicaragua",
-        "image": "/flags/ni.svg"
+        "image": "./flags/ni.svg"
       },
       {
         "name": "Niger",
-        "image": "/flags/ne.svg"
+        "image": "./flags/ne.svg"
       },
       {
         "name": "Nigeria",
-        "image": "/flags/ng.svg"
+        "image": "./flags/ng.svg"
       },
       {
         "name": "North Korea",
-        "image": "/flags/kp.svg"
+        "image": "./flags/kp.svg"
       },
       {
         "name": "North Macedonia",
-        "image": "/flags/mk.svg"
+        "image": "./flags/mk.svg"
       },
     
       {
         "name": "Norway",
-        "image": "/flags/no.svg"
+        "image": "./flags/no.svg"
       },
       {
         "name": "Oman",
-        "image": "/flags/om.svg"
+        "image": "./flags/om.svg"
       },
       {
         "name": "Pakistan",
-        "image": "/flags/pk.svg"
+        "image": "./flags/pk.svg"
       },
       {
         "name": "Palau",
-        "image": "/flags/pw.svg"
+        "image": "./flags/pw.svg"
       },
       {
         "name": "Panama",
-        "image": "/flags/pa.svg"
+        "image": "./flags/pa.svg"
       },
       {
         "name": "Papua New Guinea",
-        "image": "/flags/pg.svg"
+        "image": "./flags/pg.svg"
       },
       {
         "name": "Paraguay",
-        "image": "/flags/py.svg"
+        "image": "./flags/py.svg"
       },
       {
         "name": "Peru",
-        "image": "/flags/pe.svg"
+        "image": "./flags/pe.svg"
       },
       {
         "name": "Philippines",
-        "image": "/flags/ph.svg"
+        "image": "./flags/ph.svg"
       },
       {
         "name": "Poland",
-        "image": "/flags/pl.svg"
+        "image": "./flags/pl.svg"
       },
       {
         "name": "Portugal",
-        "image": "/flags/pt.svg"
+        "image": "./flags/pt.svg"
       },
       {
         "name": "Puerto Rico",
-        "image": "/flags/pr.svg"
+        "image": "./flags/pr.svg"
       },
       {
         "name": "Qatar",
-        "image": "/flags/qa.svg"
+        "image": "./flags/qa.svg"
       },
       {
         "name": "Republic of Congo",
-        "image": "/flags/cg.svg"
+        "image": "./flags/cg.svg"
       },
       {
         "name": "Romania",
-        "image": "/flags/ro.svg"
+        "image": "./flags/ro.svg"
       },
       {
         "name": "Russia",
-        "image": "/flags/ru.svg"
+        "image": "./flags/ru.svg"
       },
       {
         "name": "Rwanda",
-        "image": "/flags/rw.svg"
+        "image": "./flags/rw.svg"
       },
       {
         "name": "Saint Kitts and Nevis",
-        "image": "/flags/kn.svg"
+        "image": "./flags/kn.svg"
       },
       {
         "name": "Saint Lucia",
-        "image": "/flags/lc.svg"
+        "image": "./flags/lc.svg"
       },
   
       {
         "name": "Saint Vincent and the Grenadines",
-        "image": "/flags/vc.svg"
+        "image": "./flags/vc.svg"
       },
       {
         "name": "Samoa",
-        "image": "/flags/ws.svg"
+        "image": "./flags/ws.svg"
       },
       {
         "name": "San Marino",
-        "image": "/flags/sm.svg"
+        "image": "./flags/sm.svg"
       },
       {
         "name": "Sao Tome and Principe",
-        "image": "/flags/st.svg"
+        "image": "./flags/st.svg"
       },
       {
         "name": "Saudi Arabia",
-        "image": "/flags/sa.svg"
+        "image": "./flags/sa.svg"
       },
       {
         "name": "Senegal",
-        "image": "/flags/sn.svg"
+        "image": "./flags/sn.svg"
       },
       {
         "name": "Serbia",
-        "image": "/flags/rs.svg"
+        "image": "./flags/rs.svg"
       },
       {
         "name": "Seychelles",
-        "image": "/flags/sc.svg"
+        "image": "./flags/sc.svg"
       },
       {
         "name": "Sierra Leone",
-        "image": "/flags/sl.svg"
+        "image": "./flags/sl.svg"
       },
       {
         "name": "Singapore",
-        "image": "/flags/sg.svg"
+        "image": "./flags/sg.svg"
       },
       {
         "name": "Sint Maarten",
-        "image": "/flags/sx.svg"
+        "image": "./flags/sx.svg"
       },
       {
         "name": "Slovakia",
-        "image": "/flags/sk.svg"
+        "image": "./flags/sk.svg"
       },
       {
         "name": "Slovenia",
-        "image": "/flags/si.svg"
+        "image": "./flags/si.svg"
       },
       {
         "name": "Solomon Islands",
-        "image": "/flags/sb.svg"
+        "image": "./flags/sb.svg"
       },
       {
         "name": "Somalia",
-        "image": "/flags/so.svg"
+        "image": "./flags/so.svg"
       },
       {
         "name": "South Africa",
-        "image": "/flags/za.svg"
+        "image": "./flags/za.svg"
       },
       {
         "name": "South Korea",
-        "image": "/flags/kr.svg"
+        "image": "./flags/kr.svg"
       },
       {
         "name": "South Sudan",
-        "image": "/flags/ss.svg"
+        "image": "./flags/ss.svg"
       },
       {
         "name": "Spain",
-        "image": "/flags/es.svg"
+        "image": "./flags/es.svg"
       },
       {
         "name": "Sri Lanka",
-        "image": "/flags/lk.svg"
+        "image": "./flags/lk.svg"
       },
       {
         "name": "State of Palestine",
-        "image": "/flags/ps.svg"
+        "image": "./flags/ps.svg"
       },
       {
         "name": "Sudan",
-        "image": "/flags/sd.svg"
+        "image": "./flags/sd.svg"
       },
       {
         "name": "Suriname",
-        "image": "/flags/sr.svg"
+        "image": "./flags/sr.svg"
       },
       {
         "name": "Sweden",
-        "image": "/flags/se.svg"
+        "image": "./flags/se.svg"
       },
       {
         "name": "Switzerland",
-        "image": "/flags/ch.svg"
+        "image": "./flags/ch.svg"
       },
       {
         "name": "Syria",
-        "image": "/flags/sy.svg"
+        "image": "./flags/sy.svg"
       },
       {
         "name": "Taiwan",
-        "image": "/flags/tw.svg"
+        "image": "./flags/tw.svg"
       },
       {
         "name": "Tajikistan",
-        "image": "/flags/tj.svg"
+        "image": "./flags/tj.svg"
       },
       {
         "name": "Tanzania",
-        "image": "/flags/tz.svg"
+        "image": "./flags/tz.svg"
       },
       {
         "name": "Thailand",
-        "image": "/flags/th.svg"
+        "image": "./flags/th.svg"
       },
       {
         "name": "Timor-Leste",
-        "image": "/flags/tl.svg"
+        "image": "./flags/tl.svg"
       },
       {
         "name": "Togo",
-        "image": "/flags/tg.svg"
+        "image": "./flags/tg.svg"
       },
       {
         "name": "Tonga",
-        "image": "/flags/to.svg"
+        "image": "./flags/to.svg"
       },
       {
         "name": "Trinidad and Tobago",
-        "image": "/flags/tt.svg"
+        "image": "./flags/tt.svg"
       },
       {
         "name": "Tunisia",
-        "image": "/flags/tn.svg"
+        "image": "./flags/tn.svg"
       },
       
       {
         "name": "Turkmenistan",
-        "image": "/flags/tm.svg"
+        "image": "./flags/tm.svg"
       },
       {
         "name": "Tuvalu",
-        "image": "/flags/tv.svg"
+        "image": "./flags/tv.svg"
       },
       {
         "name": "Türkiye",
-        "image": "/flags/tr.svg"
+        "image": "./flags/tr.svg"
       },
       {
         "name": "Uganda",
-        "image": "/flags/ug.svg"
+        "image": "./flags/ug.svg"
       },
       {
         "name": "Ukraine",
-        "image": "/flags/ua.svg"
+        "image": "./flags/ua.svg"
       },
       {
         "name": "United Arab Emirates",
-        "image": "/flags/ae.svg"
+        "image": "./flags/ae.svg"
       },
       {
         "name": "United Kingdom",
-        "image": "/flags/gb.svg"
+        "image": "./flags/gb.svg"
       },
   
       {
         "name": "United States of America",
-        "image": "/flags/us.svg"
+        "image": "./flags/us.svg"
       },
       {
         "name": "Uruguay",
-        "image": "/flags/uy.svg"
+        "image": "./flags/uy.svg"
       },
       {
         "name": "Uzbekistan",
-        "image": "/flags/uz.svg"
+        "image": "./flags/uz.svg"
       },
       {
         "name": "Vanuatu",
-        "image": "/flags/vu.svg"
+        "image": "./flags/vu.svg"
       },
       {
         "name": "Venezuela",
-        "image": "/flags/ve.svg"
+        "image": "./flags/ve.svg"
       },
       {
         "name": "Vietnam",
-        "image": "/flags/vn.svg"
+        "image": "./flags/vn.svg"
       },
       {
         "name": "Yemen",
-        "image": "/flags/ye.svg"
+        "image": "./flags/ye.svg"
       },
       {
         "name": "Zambia",
-        "image": "/flags/zm.svg"
+        "image": "./flags/zm.svg"
       },
       {
         "name": "Zimbabwe",
-        "image": "/flags/zw.svg"
+        "image": "./flags/zw.svg"
       }
        
     
