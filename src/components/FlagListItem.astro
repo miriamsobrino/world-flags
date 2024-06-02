@@ -1,0 +1,31 @@
+---
+const { img, name } = Astro.props;
+---
+
+<div class="container">
+  <img src={img} alt={name} width="70" />
+  <p>{name}</p>
+</div>
+
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    height: 90px;
+    background-color: rgba(246, 246, 246, 0.2);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    justify-content: top;
+    align-items: center;
+    color: rgb(56, 56, 56);
+    padding-top: 22px;
+    text-align: center;
+    line-height: 1.2em;
+    transition: transform ease-in-out 0.1s;
+  }
+  .container:hover {
+    transform: scale(1.6);
+    background-color: rgb(243, 240, 251);
+  }
+</style>

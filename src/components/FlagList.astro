@@ -1,0 +1,20 @@
+---
+import { flags } from "../constants/flags.js";
+import FlagListItem from "./FlagListItem.astro";
+---
+
+<div class="container-list">
+  {flags.map((flag) => <FlagListItem img={flag.image} name={flag.name} />)}
+</div>
+
+<style>
+  .container-list {
+    grid-template-columns: repeat(auto-fill, min(200px));
+    display: grid;
+    width: 80vw;
+    margin: 0 auto;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+</style>

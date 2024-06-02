@@ -1,0 +1,269 @@
+---
+import CloseIcon from "../icons/closeIcon.astro";
+---
+
+<div class="header">
+  <h1>🌎 World Flags 🌎</h1>
+  <p>How many flags can you guess?</p>
+
+  <button id="openModal">Play Quiz</button>
+</div>
+
+<div class="modal-container" id="modalContainer">
+  <div class="modal-content">
+    <button id="closeModal"><CloseIcon /></button>
+    <span id="score"></span>
+    <span id="advice"></span>
+    <img id="flagImage" src="" alt="Flag" />
+    <button id="retryBtn">Try again</button>
+    <div id="options"></div>
+  </div>
+</div>
+
+<style>
+  .header {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  p {
+    font-size: 1.1em;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .modal-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-content {
+    background-color: #f6f6f6;
+    padding: 20px 0 40px 0;
+    max-height:500px;
+    min-height:500px;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+  }
+
+  #openModal {
+    padding: 10px;
+    background-color: #c3c7de;
+    font-size: 1em;
+    border: none;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    transition: transform ease-in-out 0.1s;
+  }
+
+  #openModal:hover {
+    transform: scale(1.1);
+    border: 2px solid #cfd3ea;
+  }
+  #closeModal {
+    background-color: #f6f6f6;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-weight: bold;
+    top: 10px;
+    right: 10px;
+  }
+
+  #retryBtn {
+    padding: 10px;
+    background-color: #c3c7de;
+    font-size: 1em;
+    border: none;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin-top: 16px;
+    transition: transform ease-in-out 0.1s;
+  }
+  #retryBtn:hover {
+    transform: scale(1.1);
+    border: 2px solid #cfd3ea;
+  }
+  #score {
+    margin: 0 !important;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-align: center;
+  }
+  .img {
+    max-width: 300px;
+    min-width: 300px;
+  }
+
+  #options {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .shake-horizontal {
+    animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+      both;
+  }
+  @keyframes horizontal-shaking {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(5px);
+    }
+    50% {
+      transform: translateX(-5px);
+    }
+    75% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+</style>
+<script>
+  import { flags } from "../constants/flags.js";
+  let remainingFlags = [...flags];
+  let score = 0;
+  let scoreElement = document.getElementById("score");
+  let adviceText = document.getElementById("advice");
+  const modalCointainer = document.getElementById("modalContainer");
+  const flagImage = document.getElementById("flagImage");
+  const optionsContainer = document.getElementById("options");
+  const btnRetry = document.getElementById("retryBtn");
+
+  function selectRemainingFlag() {
+    const randomIndex = Math.floor(Math.random() * remainingFlags.length);
+    return remainingFlags[randomIndex];
+  }
+
+  function selectRandomFlag() {
+    const randomIndex = Math.floor(Math.random() * flags.length);
+    return flags[randomIndex];
+  }
+
+  function removeFlag(flag) {
+    const index = remainingFlags.indexOf(flag);
+    if (index > -1) {
+      remainingFlags.splice(index, 1);
+    }
+  }
+
+  function openModal() {
+    btnRetry.style.display = "none";
+    scoreElement.innerText = `Score: ${score}/${flags.length}`;
+    flagImage.classList.add("img");
+    adviceText.style.display = "none";
+    optionsContainer.innerHTML = "";
+    const flag = selectRemainingFlag();
+    if (!flag) {
+      scoreElement.innerHTML = `Quiz completed!<br/> Your score is: ${score}/${flags.length}`;
+      scoreElement.style.marginTop = "16px";
+      adviceText.style.display = "flex";
+      flagImage.style.display = "none";
+      btnRetry.style.display = "flex";
+      optionsContainer.style.display = "none";
+      if (score < 50) {
+        adviceText.innerText = "You should study harder";
+      } else if (score > 50 || score == 100) {
+        adviceText.innerText = "Not bad...but you can do better!";
+      } else if (score > 100 && score < 180) {
+        adviceText.innerText =
+          "You're very good at this, you're not far from excellence!";
+      } else {
+        adviceText.innerText = "Excellent! You're the best at this!";
+      }
+      btnRetry.addEventListener("click", retryQuiz);
+
+    }
+    removeFlag(flag);
+    console.log(remainingFlags);
+    modalCointainer.style.display = "flex";
+    flagImage.setAttribute("src", flag.image);
+    const options = [];
+    options.push(flag.name);
+    while (options.length < 3) {
+      const randomFlag = selectRandomFlag();
+      if (!options.includes(randomFlag.name)) {
+        options.push(randomFlag.name);
+      }
+    }
+
+    options.sort(function () {
+      return Math.random() - 0.5;
+    });
+
+    options.forEach(function (option) {
+      const button = document.createElement("button");
+      button.textContent = option;
+      button.style.backgroundColor = "#d9d9e6";
+      button.style.border = "none";
+      button.style.padding = "10px";
+      button.style.width = "300px";
+      button.style.cursor = "pointer";
+      button.style.fontFamily = "Poppins";
+      button.style.fontSize = "1em";
+
+      button.onclick = function () {
+        const selectedOption = button.textContent;
+        const correctAnswer = flag.name;
+        optionsContainer.querySelectorAll("button").forEach(function (btn) {
+          btn.disabled = true;
+        });
+        if (selectedOption == correctAnswer) {
+          console.log("Has acertado");
+          score += 1;
+
+          button.style.backgroundColor = "green";
+          button.style.color = "white";
+        } else {
+          button.style.backgroundColor = "red";
+          button.style.color = "white";
+          button.style.animation = "horizontal-shaking 0.3s";
+          console.log("Has fallado");
+        }
+        setTimeout(openModal, 500);
+      };
+      optionsContainer.append(button);
+    });
+  }
+  function retryQuiz() {
+    score = 0; // Reset the score
+    remainingFlags = [...flags]; // Reset the remaining flags
+    flagImage.style.display = "flex";
+    optionsContainer.style.display="flex";
+    scoreElement.innerText = `Score: ${score}/${flags.length}`;
+
+    openModal();
+  }
+
+  document.getElementById("openModal").addEventListener("click", openModal);
+  document.getElementById("closeModal").addEventListener("click", function () {
+    document.getElementById("modalContainer").style.display = "none";
+    score = 0;
+    remainingFlags = [...flags];
+  });
+</script>
