@@ -301,7 +301,7 @@ export const flags = [
       },
       {
         "name": "Guyana",
-        "image": "/flags/gy.svg"
+        "image": "./flags/gy.svg"
       },
       {
         "name": "Haiti",
@@ -325,7 +325,7 @@ export const flags = [
       },
       {
         "name": "Indonesia",
-        "image": "/flags/id.svg"
+        "image": "./flags/id.svg"
       },
       {
         "name": "Iran",
