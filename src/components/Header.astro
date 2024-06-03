@@ -2,12 +2,12 @@
 import CloseIcon from "../icons/closeIcon.astro";
 ---
 
-<div class="header">
+<header class="header">
   <h1>🌎 World Flags 🌎</h1>
   <p>How many flags can you guess?</p>
 
   <button id="openModal">Play Quiz</button>
-</div>
+</header>
 
 <div class="modal-container" id="modalContainer">
   <div class="modal-content">
@@ -23,7 +23,6 @@ import CloseIcon from "../icons/closeIcon.astro";
 <style>
   .header {
     width: 100%;
-    height: auto;
     margin: 0 auto;
     text-align: center;
     padding: 20px;
@@ -142,6 +141,14 @@ import CloseIcon from "../icons/closeIcon.astro";
       transform: translateX(0);
     }
   }
+  @media screen and (max-width: 500px){
+    .header{
+      padding-right:20px;
+  }
+
+ 
+}
+
 </style>
 <script>
   import { flags } from "../constants/flags.js";
