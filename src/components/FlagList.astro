@@ -14,7 +14,19 @@ import FlagListItem from "./FlagListItem.astro";
     width: 80vw;
     margin: 0 auto;
     gap: 10px;
+    align-items: center;
+    
     justify-content: center;
     margin-bottom: 60px;
   }
+  @media screen and (max-width: 600px){
+    .container-list{
+     display:grid;
+     grid-template-columns: repeat(autofill, min(80px));
+   
+      width: 100vw;
+
+  }
+}
+
 </style>
