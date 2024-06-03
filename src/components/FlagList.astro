@@ -12,7 +12,6 @@ import FlagListItem from "./FlagListItem.astro";
     grid-template-columns: repeat(auto-fill, min(200px));
     display: grid;
     width: 80vw;
-    
 
     gap: 10px;
     align-content: center;
@@ -21,40 +20,25 @@ import FlagListItem from "./FlagListItem.astro";
     margin-bottom: 60px;
   }
 
-  @media screen and (max-width: 600px){
-    .container-list{
+  @media screen and (max-width: 600px) {
+    .container-list {
       grid-template-columns: repeat(2, min(200px));
       width: 100vw;
-      padding:0 10px;
-     
-  
-      
-
-     
+      padding: 0 10px;
+    }
   }
-}
 
-
-@media screen and (max-width: 500px){
-    .container-list{
+  @media screen and (max-width: 500px) {
+    .container-list {
       grid-template-columns: repeat(2, min(200px));
       width: 100vw;
-   
+    }
   }
-}
 
-
-
-@media screen and (max-width: 400px){
-    .container-list{
+  @media screen and (max-width: 400px) {
+    .container-list {
       grid-template-columns: repeat(1, min(200px));
       width: 100vw;
-   
+    }
   }
-}
-
-
- 
-
-
 </style>
