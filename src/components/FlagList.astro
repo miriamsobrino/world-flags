@@ -12,10 +12,11 @@ import FlagListItem from "./FlagListItem.astro";
     grid-template-columns: repeat(auto-fill, min(200px));
     display: grid;
     width: 80vw;
-    margin: 0 auto;
-    gap: 10px;
-    align-items: center;
     
+
+    gap: 10px;
+    align-content: center;
+
     justify-content: center;
     margin-bottom: 60px;
   }
@@ -23,6 +24,8 @@ import FlagListItem from "./FlagListItem.astro";
   @media screen and (max-width: 600px){
     .container-list{
       grid-template-columns: repeat(2, min(200px));
+      width: 100vw;
+      padding:0 10px;
      
   
       
@@ -30,17 +33,24 @@ import FlagListItem from "./FlagListItem.astro";
      
   }
 }
-  @media screen and (max-width: 500px){
+
+
+@media screen and (max-width: 500px){
     .container-list{
-      grid-template-columns: repeat(1, min(240px));
-      width: 100%;
-      justify-content: center;
-      align-items: center;
-      margin:0 auto;
+      grid-template-columns: repeat(1, min(200px));
+      width: 100vw;
+   
+     
+  
+      
+
      
   }
+}
+
+
 
  
-}
+
 
 </style>
